@@ -346,3 +346,12 @@ $(document).ready(function ()
 	  newLocation(55.749792,37.632495);
 	});
 });
+
+function showHide() {
+    var x = document.getElementById("pass");
+    if (x.type === "password") {
+      x.type = "text";
+    } else {
+      x.type = "password";
+    }
+  }
