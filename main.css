@@ -1,0 +1,434 @@
+@charset "utf-8";
+
+/* ------------------------------------------------------------------------------------------------------------*/
+/* ------------------------------------------------------------------------------------------------------------*/
+/* ------------------------------------------------------------------------------------------------------------*/
+/* ------------------------------------------------------------------------------------------------------------*/
+                                               /* CONTENT */
+/* ------------------------------------------------------------------------------------------------------------*/
+/* ------------------------------------------------------------------------------------------------------------*/
+/* ------------------------------------------------------------------------------------------------------------*/
+/* ------------------------------------------------------------------------------------------------------------*/
+
+html {
+	box-sizing: border-box;
+	height: 100%;
+	font-size: 100%;
+}
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+body {
+	position: relative;
+	height: 100%;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light",
+	"Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	font-size: 1em;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	line-height: 1.625em; /*26px*/
+	color: #76787c;
+	background-color: #fff;
+	-webkit-font-smoothing: antialiased;
+	overflow: hidden;
+}
+
+
+
+/* typographie */
+/* -----------------------------------------------------*/
+
+h1, .h1-like, 
+h2, .h2-like, 
+h3, .h3-like, 
+h4, .h4-like, 
+h5, .h5-like, 
+h6, .h6-like {
+	font-weight: 700;
+	color: #1C1F26;
+	margin: 0 0 0.71875em 0;
+	line-height: 1.25em;
+}
+
+h1, .h1-like {
+	font-size: 2em;
+}
+h2, .h2-like {
+	font-size: 1.75em;
+}
+h3, .h3-like {
+	font-size: 1.5em;
+}
+h4, .h4-like {
+	font-size: 1.25em;
+}
+h5, .h5-like {
+	font-size: 1.125em;
+}
+h6, .h6-like {
+	font-size: 1em;
+}
+p {
+	margin: 0 0 0.71875em 0;
+}
+/* Grouping content */
+/*---------------------------------------------------*/
+img{
+	max-width: 100%;
+	height: auto;
+	vertical-align: bottom;
+
+}
+/* -----------------------------------------------------*/
+/* CONTENT */
+/* -----------------------------------------------------*/
+
+.container0 {
+	margin: 0 auto;
+	max-width: 95%;
+}
+
+.container{
+	margin: 0 auto;
+	max-width:1080px;
+}
+
+.row{
+	display: flex;
+}
+.col-3{width:25%;}
+.col-4{width:33.333333%;}
+.col-6{width:50%;}
+.col-8{width:66.666666%;}
+.col-9{width:75%;}
+.col-12{width:100%;}
+
+
+@font-face {
+	font-family: "Ma Super Fonte";
+	src: url('MaSuperFonte-Regular.ttf');
+}
+@font-face {
+	font-family: "Ma Super Fonte";
+	font-style: italic;
+	src: url('MaSuperFonte-Italic.ttf');
+}
+@font-face {
+	font-family: "Ma Super Fonte";
+	font-weight: bold;
+	src: url('MaSuperFonte-Bold.ttf');
+}
+
+
+
+
+
+
+/* ------------------------------------------------------------------------------------------------------------*/
+/* ------------------------------------------------------------------------------------------------------------*/
+/* ------------------------------------------------------------------------------------------------------------*/
+/* ------------------------------------------------------------------------------------------------------------*/
+                                               /* FORM HEADER */
+/* ------------------------------------------------------------------------------------------------------------*/
+/* ------------------------------------------------------------------------------------------------------------*/
+/* ------------------------------------------------------------------------------------------------------------*/
+/* ------------------------------------------------------------------------------------------------------------*/
+
+
+.maindesign {
+	padding-top: 90px;
+	margin-bottom: 40px;
+}
+
+.mainsection {
+	background-color: #283891;
+	height: 100%;
+	display: block;
+	z-index: 5;
+}
+
+.mainlogo {
+	max-width: 100px;
+	margin-right: 15px;
+}
+
+.maintext {
+	max-width: 250px;
+	padding-top: 20px;
+}
+
+.mainpage {
+	text-align: center;
+}
+
+.inputtext {
+	border-radius: 5px;
+	border: solid 1px white !important;
+	background-color: rgba(240, 248, 255, 0) !important;
+	color: white !important;
+	max-width: 300px;
+}
+
+.form-groupa {
+	display: block;
+	justify-content: center;
+	margin-bottom: 15px;
+}
+
+.btncnxinsc {
+	background-color: rgba(126, 99, 99, 0); 
+	border: solid 1px white; 
+	border-radius: 5px;
+	color: white; 
+	padding: 5px 10px;
+	margin: 0 3px;
+}
+
+.btncnxinsc:focus {
+	background-color: rgba(255, 255, 255, 0.959); 
+	border: solid 1px #283891; 
+	border-radius: 5px;
+	color: #283891; 
+	padding: 5px 10px;
+	margin: 0 3px;
+	font-weight: 700;
+}
+
+.form-control {
+	display: inline-block !important;
+}
+
+.inputtext::placeholder {
+	color: white !important;
+}
+
+.inputbutton {
+	background-color: white;
+	border: solid 1px white;
+	color: #283891;
+	border-radius: 5px; 
+}
+
+.inputbutton:hover {
+	background-color: white;	
+	color: #283891;
+	border: solid 1px white;
+	border: none;
+}
+
+.btn-primary {
+	background-color: rgba(255, 255, 255, 0) !important;
+	border: solid 1px white !important;
+}
+.btn-primary:hover {
+	background-color: rgba(255, 255, 255, 0.144) !important;
+
+}
+
+.fa-search {
+	background-color: #ffffff00;
+	color: white;
+	border: none;
+	padding: 0px;
+}
+
+
+
+
+/* ------------------------------------------------------------------------------------------------------------*/
+/* ------------------------------------------------------------------------------------------------------------*/
+/* ------------------------------------------------------------------------------------------------------------*/
+/* ------------------------------------------------------------------------------------------------------------*/
+                                               /* MAP */
+/* ------------------------------------------------------------------------------------------------------------*/
+/* ------------------------------------------------------------------------------------------------------------*/
+/* ------------------------------------------------------------------------------------------------------------*/
+/* ------------------------------------------------------------------------------------------------------------*/
+
+
+.fa-align-left::before {
+	background-color: #ffffff00 !important;
+	color: #ffffff;
+	border: none;
+	font-size: 35px; 
+	padding: 5px;
+	position: absolute; 
+	top: 7px; 
+	left: 15px;  
+}
+
+.fa-align-left:hover {
+	color: rgb(221, 38, 175) !important; 
+}
+
+#map {
+	 position:absolute; top:0; bottom:0; width:100%; 
+}
+
+.logoformap {
+	position: absolute;
+	bottom: 10px;
+	left: 10px;
+	width: 65px;
+	z-index: 3;
+}
+
+#littleheader {
+	display: none; 
+	position: absolute;
+	top: 0px;
+	left: 0; 
+	z-index: 999;
+	padding: 10px 0px; 
+	text-align: right; 
+}
+
+
+.littledivslider {
+	display: block;
+	color: white !important;
+}
+
+.littledivslider:hover {
+	background-color: #1b255f !important;
+	color: rgb(221, 38, 175) !important; 
+}
+
+
+.littledivslider:active {
+	background-color: rgb(221, 38, 175) !important;
+	color: rgb(255, 255, 255) !important; 
+}
+
+.mapboxgl-ctrl-top-right .mapboxgl-ctrl {
+    margin: 73px 10px 0 0 !important;
+	float: right;
+}
+
+.mapboxgl-ctrl-top-right {
+    top: 60px !important ;
+    right: 0;
+}
+
+a.mapboxgl-ctrl-logo {
+	display: none !important; 
+}
+
+.mapboxgl-popup-content {
+	background: #283891 !important;
+	color: white !important; 
+	text-align: center;
+	display: grid !important; 
+	border-radius: 7px !important; 
+}
+
+.mapboxgl-popup-close-button {
+	color: white !important;
+	font-size: x-large;
+	top: 3px !important;
+	right: 3px !important; 
+}
+
+.mapboxgl-popup-content .adressStation {
+	margin-top: 10px;
+	font-style: italic; 
+	border: solid 1px rgb(221, 38, 175); 
+	padding: 7px; 
+	border-radius: 5px; 
+}
+
+.mapboxgl-popup-content .fa-map-marker-alt {
+	color: rgb(221, 38, 175); 
+}
+
+.mapboxgl-popup-content .reservationButton{
+	color: #ffffff;
+	background-color: rgb(221, 38, 175); 
+	border: solid 1px rgb(221, 38, 175); 
+	border-radius: 5px;
+	margin: 30px 40px 0px 40px;
+	padding: 5px;
+}
+
+.mapboxgl-popup-content .reservationButton:hover{
+	background-color: rgb(155, 28, 123) !important;
+}
+
+.mapboxgl-popup-content strong {
+	font-size: large; 
+	margin-top: 5px; 
+}
+
+
+
+
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav */
+@media screen and (max-width: 450px) {
+	.full-width-mobile {width:100% !important;}
+	.mid-width-mobile {width:100% !important;}
+	.contactlittlecases {display: block !important; text-align: -webkit-center;}
+	}
+  
+
+
+
+
+/* ------------------------------------------------------------------------------------------------------------*/
+/* ------------------------------------------------------------------------------------------------------------*/
+/* ------------------------------------------------------------------------------------------------------------*/
+/* ------------------------------------------------------------------------------------------------------------*/
+                                               /* SLIDER LEFT */
+/* ------------------------------------------------------------------------------------------------------------*/
+/* ------------------------------------------------------------------------------------------------------------*/
+/* ------------------------------------------------------------------------------------------------------------*/
+/* ------------------------------------------------------------------------------------------------------------*/
+
+
+#modalcondidentialite .modal-backdrop.show {
+	display: none !important; 
+}
+
+.prevandsuiv:active {
+	color: rgb(221, 38, 175);
+}
+
+.kiwi {
+	fill: #283891;
+}
+
+.display-block {
+	display: block !important;
+}
+
+.display-none {
+	display: none !important;
+}
+
+.select-town1 {
+	background-color: #283891;
+	color: white; 
+}
+
+.custom-select-first {
+	background: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 4 5'%3e%3cpath fill='white' d='M2 0L0 2h4zm0 5L0 3h4z'/%3e%3c/svg%3e") no-repeat right .75rem center/8px 10px !important;
+}
+
+.town-color {
+	color: #ffffff;
+}
+
+select:focus {
+	background: #283891 !important ;
+	background-color: #283891 !important ;
+	color: white !important ;
+ }
+
+ .villebuttonswitch {
+	 background-color: rgba(98, 125, 189, 0);
+	 color: white;
+	 border: none; 
+	 letter-spacing: 3px;
+     font-size: 11px;
+}
+ 
